@@ -8,26 +8,27 @@ Este curso te llevará desde los fundamentos de IA generativa hasta la construcc
 
 ## Estructura del Curso
 
-| Módulo | Título | Duración | Estado |
-|--------|--------|----------|--------|
-| 0 | Diagnóstico y Nivelación | 5h | Completo |
-| 1 | Dominio de la API de Gemini | 9h | Completo |
-| 2 | Ingeniería de Prompts Avanzada | 11h | Completo |
-| 3 | Function Calling y Herramientas | 13h | Completo |
-| 4 | Arquitectura de Agentes Básicos | 11h | Completo |
-| 5 | Memoria y Estado en Agentes | 9h | Completo |
-| 6 | RAG con Agentes | 11h | Completo |
-| 7 | Sistemas Multi-Agente | 13h | Completo |
-| 8 | Agentes Autónomos | 11h | Completo |
-| 9 | Evaluación y Testing | 7h | Completo |
-| 10 | Despliegue en Producción | 9h | Completo |
-| 11 | Proyecto Integrador Final | 14h | Completo |
+| Módulo | Título                          | Duración | Estado   |
+| ------ | ------------------------------- | -------- | -------- |
+| 0      | Diagnóstico y Nivelación        | 5h       | Completo |
+| 1      | Dominio de la API de Gemini     | 9h       | Completo |
+| 2      | Ingeniería de Prompts Avanzada  | 11h      | Completo |
+| 3      | Function Calling y Herramientas | 13h      | Completo |
+| 4      | Arquitectura de Agentes Básicos | 11h      | Completo |
+| 5      | Memoria y Estado en Agentes     | 9h       | Completo |
+| 6      | RAG con Agentes                 | 11h      | Completo |
+| 7      | Sistemas Multi-Agente           | 13h      | Completo |
+| 8      | Agentes Autónomos               | 11h      | Completo |
+| 9      | Evaluación y Testing            | 7h       | Completo |
+| 10     | Despliegue en Producción        | 9h       | Completo |
+| 11     | Proyecto Integrador Final       | 14h      | Completo |
 
 **Duración total estimada**: ~100 horas
 
 ## Contenido Generado (95 subtemas de 95)
 
 ### Módulo 0: Diagnóstico y Nivelación (COMPLETO - 6/6)
+
 - [0.1.1 Arquitectura Transformer](modulo_0/tema_0.1/0.1.1-arquitectura-transformer.md)
 - [0.1.2 Modelos de Lenguaje y Generación](modulo_0/tema_0.1/0.1.2-modelos-lenguaje-generacion.md)
 - [0.1.3 Familia de Modelos Gemini](modulo_0/tema_0.1/0.1.3-familia-modelos-gemini.md)
@@ -36,6 +37,7 @@ Este curso te llevará desde los fundamentos de IA generativa hasta la construcc
 - [0.2.3 Primera Interacción con Gemini](modulo_0/tema_0.2/0.2.3-primera-interaccion.md)
 
 ### Módulo 1: Dominio de la API (COMPLETO - 8/8)
+
 - [1.1.1 Métodos generate_content y stream](modulo_1/tema_1.1/1.1.1-generate-content-stream.md)
 - [1.1.2 Temperature, Top-P, Top-K](modulo_1/tema_1.1/1.1.2-temperature-top-p-k.md)
 - [1.1.3 Tokens, Límites y Costos](modulo_1/tema_1.1/1.1.3-tokens-limites-costos.md)
@@ -46,6 +48,7 @@ Este curso te llevará desde los fundamentos de IA generativa hasta la construcc
 - [1.3.2 System Instructions](modulo_1/tema_1.3/1.3.2-system-instructions.md)
 
 ### Módulo 2: Ingeniería de Prompts (COMPLETO - 9/9)
+
 - [2.1.1 Anatomía de un Prompt Efectivo](modulo_2/tema_2.1/2.1.1-anatomia-prompt-efectivo.md)
 - [2.1.2 Zero-Shot, One-Shot y Few-Shot Learning](modulo_2/tema_2.1/2.1.2-zero-one-few-shot.md)
 - [2.1.3 Role Prompting y Personas](modulo_2/tema_2.1/2.1.3-role-prompting-personas.md)
@@ -57,6 +60,7 @@ Este curso te llevará desde los fundamentos de IA generativa hasta la construcc
 - [2.3.3 Manejo de Errores y Recuperación](modulo_2/tema_2.3/2.3.3-manejo-errores-recuperacion.md)
 
 ### Módulo 3: Function Calling (COMPLETO - 9/9)
+
 - [3.1.1 Declaración de Funciones con JSON Schema](modulo_3/tema_3.1/3.1.1-declaracion-funciones-json-schema.md)
 - [3.1.2 Ciclo de Vida de Function Calling](modulo_3/tema_3.1/3.1.2-ciclo-vida-function-calling.md)
 - [3.1.3 Parallel Function Calling](modulo_3/tema_3.1/3.1.3-parallel-function-calling.md)
@@ -68,6 +72,7 @@ Este curso te llevará desde los fundamentos de IA generativa hasta la construcc
 - [3.3.3 Rate Limiting y Retry Patterns](modulo_3/tema_3.3/3.3.3-rate-limiting-retry.md)
 
 ### Módulo 4: Arquitectura de Agentes Básicos (COMPLETO - 9/9)
+
 - [4.1.1 Modelo ReAct (Reasoning + Acting)](modulo_4/tema_4.1/4.1.1-modelo-react.md)
 - [4.1.2 Bucle de Agente: Observe-Think-Act](modulo_4/tema_4.1/4.1.2-bucle-observe-think-act.md)
 - [4.1.3 Condiciones de Terminación](modulo_4/tema_4.1/4.1.3-condiciones-terminacion.md)
@@ -156,15 +161,18 @@ Este curso te llevará desde los fundamentos de IA generativa hasta la construcc
 ## Requisitos
 
 ### Software
+
 - Python 3.10+
 - pip o poetry
 - Git
 
 ### Cuentas
+
 - Google Cloud Platform (GCP)
 - API Key de Gemini
 
 ### Conocimientos previos
+
 - Programación en Python (intermedio)
 - Conceptos básicos de APIs REST
 - Familiaridad con JSON
@@ -210,6 +218,7 @@ Al completar este curso serás capaz de:
 ## Proyecto Final
 
 Sistema multi-agente para automatización empresarial que incluye:
+
 - Agente coordinador (supervisor)
 - Agentes especializados (investigación, análisis, ejecución)
 - Sistema de memoria persistente
