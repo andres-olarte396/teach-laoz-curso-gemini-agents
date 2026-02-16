@@ -1,0 +1,472 @@
+[
+  {
+    "modulo_id": 0,
+    "titulo": "Diagnóstico y Nivelación",
+    "temas": [
+      {
+        "tema_id": "0.1",
+        "titulo": "Fundamentos de IA Generativa",
+        "subtemas": [
+          {
+            "subtema_id": "0.1.1",
+            "titulo": "Arquitectura Transformer y Mecanismo de Atención"
+          },
+          {
+            "subtema_id": "0.1.2",
+            "titulo": "Modelos de Lenguaje y Generación de Texto"
+          },
+          { "subtema_id": "0.1.3", "titulo": "Familia de Modelos Gemini" }
+        ]
+      },
+      {
+        "tema_id": "0.2",
+        "titulo": "Configuración del Entorno de Desarrollo",
+        "subtemas": [
+          {
+            "subtema_id": "0.2.1",
+            "titulo": "Configuración de Google Cloud y API Keys"
+          },
+          {
+            "subtema_id": "0.2.2",
+            "titulo": "Instalación del SDK de Google Generative AI"
+          },
+          { "subtema_id": "0.2.3", "titulo": "Primera Interacción con Gemini" }
+        ]
+      }
+    ]
+  },
+  {
+    "modulo_id": 1,
+    "titulo": "Dominio de la API de Gemini",
+    "temas": [
+      {
+        "tema_id": "1.1",
+        "titulo": "Generación de Texto y Parámetros",
+        "subtemas": [
+          {
+            "subtema_id": "1.1.1",
+            "titulo": "Métodos generate_content y stream"
+          },
+          {
+            "subtema_id": "1.1.2",
+            "titulo": "Configuración de Temperature, Top-P, Top-K"
+          },
+          { "subtema_id": "1.1.3", "titulo": "Tokens, Límites y Costos" }
+        ]
+      },
+      {
+        "tema_id": "1.2",
+        "titulo": "Capacidades Multimodales",
+        "subtemas": [
+          { "subtema_id": "1.2.1", "titulo": "Análisis de Imágenes" },
+          { "subtema_id": "1.2.2", "titulo": "Procesamiento de Audio y Video" },
+          { "subtema_id": "1.2.3", "titulo": "Generación Multimodal" }
+        ]
+      },
+      {
+        "tema_id": "1.3",
+        "titulo": "Gestión de Conversaciones",
+        "subtemas": [
+          { "subtema_id": "1.3.1", "titulo": "Chat Sessions y Historial" },
+          { "subtema_id": "1.3.2", "titulo": "System Instructions" }
+        ]
+      }
+    ]
+  },
+  {
+    "modulo_id": 2,
+    "titulo": "Ingeniería de Prompts Avanzada",
+    "temas": [
+      {
+        "tema_id": "2.1",
+        "titulo": "Fundamentos de Prompting",
+        "subtemas": [
+          { "subtema_id": "2.1.1", "titulo": "Anatomía de un Prompt Efectivo" },
+          {
+            "subtema_id": "2.1.2",
+            "titulo": "Zero-Shot, One-Shot y Few-Shot Learning"
+          },
+          { "subtema_id": "2.1.3", "titulo": "Role Prompting y Personas" }
+        ]
+      },
+      {
+        "tema_id": "2.2",
+        "titulo": "Técnicas Avanzadas de Razonamiento",
+        "subtemas": [
+          {
+            "subtema_id": "2.2.1",
+            "titulo": "Chain of Thought (CoT) Prompting"
+          },
+          {
+            "subtema_id": "2.2.2",
+            "titulo": "Self-Consistency y Majority Voting"
+          },
+          { "subtema_id": "2.2.3", "titulo": "Tree of Thoughts (ToT)" }
+        ]
+      },
+      {
+        "tema_id": "2.3",
+        "titulo": "Prompts para Agentes",
+        "subtemas": [
+          {
+            "subtema_id": "2.3.1",
+            "titulo": "Prompts de Planificación y Descomposición"
+          },
+          {
+            "subtema_id": "2.3.2",
+            "titulo": "Prompts de Reflexión y Auto-Crítica"
+          },
+          {
+            "subtema_id": "2.3.3",
+            "titulo": "Manejo de Errores y Recuperación"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modulo_id": 3,
+    "titulo": "Function Calling y Herramientas",
+    "temas": [
+      {
+        "tema_id": "3.1",
+        "titulo": "Fundamentos de Function Calling",
+        "subtemas": [
+          {
+            "subtema_id": "3.1.1",
+            "titulo": "Declaración de Funciones con JSON Schema"
+          },
+          {
+            "subtema_id": "3.1.2",
+            "titulo": "Ciclo de Vida de Function Calling"
+          },
+          { "subtema_id": "3.1.3", "titulo": "Parallel Function Calling" }
+        ]
+      },
+      {
+        "tema_id": "3.2",
+        "titulo": "Diseño de Herramientas",
+        "subtemas": [
+          { "subtema_id": "3.2.1", "titulo": "Patrones de Diseño de Tools" },
+          {
+            "subtema_id": "3.2.2",
+            "titulo": "Herramientas de Búsqueda y Retrieval"
+          },
+          {
+            "subtema_id": "3.2.3",
+            "titulo": "Herramientas de Ejecución de Código"
+          }
+        ]
+      },
+      {
+        "tema_id": "3.3",
+        "titulo": "Integración con APIs Externas",
+        "subtemas": [
+          { "subtema_id": "3.3.1", "titulo": "APIs REST y Autenticación" },
+          {
+            "subtema_id": "3.3.2",
+            "titulo": "Manejo de Respuestas Asíncronas"
+          },
+          { "subtema_id": "3.3.3", "titulo": "Rate Limiting y Retry Patterns" }
+        ]
+      }
+    ]
+  },
+  {
+    "modulo_id": 4,
+    "titulo": "Arquitectura de Agentes Básicos",
+    "temas": [
+      {
+        "tema_id": "4.1",
+        "titulo": "Anatomía de un Agente",
+        "subtemas": [
+          {
+            "subtema_id": "4.1.1",
+            "titulo": "Modelo ReAct (Reasoning + Acting)"
+          },
+          {
+            "subtema_id": "4.1.2",
+            "titulo": "Bucle de Agente: Observe-Think-Act"
+          },
+          { "subtema_id": "4.1.3", "titulo": "Condiciones de Terminación" }
+        ]
+      },
+      {
+        "tema_id": "4.2",
+        "titulo": "Planificación y Descomposición de Tareas",
+        "subtemas": [
+          { "subtema_id": "4.2.1", "titulo": "Task Decomposition Automática" },
+          { "subtema_id": "4.2.2", "titulo": "Plan-and-Execute Pattern" },
+          { "subtema_id": "4.2.3", "titulo": "Replanificación Dinámica" }
+        ]
+      },
+      {
+        "tema_id": "4.3",
+        "titulo": "Implementación Práctica",
+        "subtemas": [
+          { "subtema_id": "4.3.1", "titulo": "Agente de Investigación Web" },
+          { "subtema_id": "4.3.2", "titulo": "Agente de Análisis de Datos" },
+          {
+            "subtema_id": "4.3.3",
+            "titulo": "Agente de Automatización de Tareas"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modulo_id": 5,
+    "titulo": "Memoria y Estado en Agentes",
+    "temas": [
+      {
+        "tema_id": "5.1",
+        "titulo": "Tipos de Memoria",
+        "subtemas": [
+          {
+            "subtema_id": "5.1.1",
+            "titulo": "Memoria de Trabajo (Short-term)"
+          },
+          { "subtema_id": "5.1.2", "titulo": "Memoria Episódica (Long-term)" },
+          { "subtema_id": "5.1.3", "titulo": "Memoria Semántica" }
+        ]
+      },
+      {
+        "tema_id": "5.2",
+        "titulo": "Implementación de Memoria",
+        "subtemas": [
+          { "subtema_id": "5.2.1", "titulo": "Memoria con Vector Stores" },
+          {
+            "subtema_id": "5.2.2",
+            "titulo": "Memoria Estructurada (Grafos de Conocimiento)"
+          },
+          {
+            "subtema_id": "5.2.3",
+            "titulo": "Compresión y Sumarización de Memoria"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modulo_id": 6,
+    "titulo": "Retrieval-Augmented Generation (RAG) con Agentes",
+    "temas": [
+      {
+        "tema_id": "6.1",
+        "titulo": "Fundamentos de RAG",
+        "subtemas": [
+          {
+            "subtema_id": "6.1.1",
+            "titulo": "Arquitectura RAG: Indexación y Retrieval"
+          },
+          { "subtema_id": "6.1.2", "titulo": "Embeddings con Gemini" },
+          {
+            "subtema_id": "6.1.3",
+            "titulo": "Vector Databases (Pinecone, Chroma, Weaviate)"
+          }
+        ]
+      },
+      {
+        "tema_id": "6.2",
+        "titulo": "RAG Avanzado",
+        "subtemas": [
+          { "subtema_id": "6.2.1", "titulo": "Hybrid Search (Dense + Sparse)" },
+          { "subtema_id": "6.2.2", "titulo": "Re-ranking y Filtering" },
+          {
+            "subtema_id": "6.2.3",
+            "titulo": "Agentic RAG: Retrieval Iterativo"
+          }
+        ]
+      },
+      {
+        "tema_id": "6.3",
+        "titulo": "RAG en Producción",
+        "subtemas": [
+          { "subtema_id": "6.3.1", "titulo": "Estrategias de Chunking" },
+          { "subtema_id": "6.3.2", "titulo": "Evaluación de Calidad de RAG" },
+          {
+            "subtema_id": "6.3.3",
+            "titulo": "Actualización Incremental de Índices"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modulo_id": 7,
+    "titulo": "Sistemas Multi-Agente",
+    "temas": [
+      {
+        "tema_id": "7.1",
+        "titulo": "Patrones de Colaboración",
+        "subtemas": [
+          { "subtema_id": "7.1.1", "titulo": "Arquitectura Supervisor-Worker" },
+          {
+            "subtema_id": "7.1.2",
+            "titulo": "Debate y Consenso entre Agentes"
+          },
+          {
+            "subtema_id": "7.1.3",
+            "titulo": "Pipeline de Agentes Especializados"
+          }
+        ]
+      },
+      {
+        "tema_id": "7.2",
+        "titulo": "Comunicación Inter-Agente",
+        "subtemas": [
+          {
+            "subtema_id": "7.2.1",
+            "titulo": "Formatos de Mensaje Estructurados"
+          },
+          {
+            "subtema_id": "7.2.2",
+            "titulo": "Memoria Compartida vs Paso de Mensajes"
+          },
+          {
+            "subtema_id": "7.2.3",
+            "titulo": "Manejo de Conflictos y Deadlocks"
+          }
+        ]
+      },
+      {
+        "tema_id": "7.3",
+        "titulo": "Orquestación con Frameworks",
+        "subtemas": [
+          {
+            "subtema_id": "7.3.1",
+            "titulo": "LangGraph para Grafos de Agentes"
+          },
+          { "subtema_id": "7.3.2", "titulo": "CrewAI para Equipos de Agentes" },
+          {
+            "subtema_id": "7.3.3",
+            "titulo": "AutoGen para Conversaciones Multi-Agente"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "modulo_id": 8,
+    "titulo": "Agentes Autónomos y Reasoning Avanzado",
+    "temas": [
+      {
+        "tema_id": "8.1",
+        "titulo": "Arquitecturas de Agentes Autónomos",
+        "subtemas": [
+          { "subtema_id": "8.1.1", "titulo": "BabyAGI y Task-Driven Agents" },
+          {
+            "subtema_id": "8.1.2",
+            "titulo": "AutoGPT Pattern: Goals → Tasks → Execution"
+          },
+          {
+            "subtema_id": "8.1.3",
+            "titulo": "Agentes con Aprendizaje Continuo"
+          }
+        ]
+      },
+      {
+        "tema_id": "8.2",
+        "titulo": "Razonamiento Complejo",
+        "subtemas": [
+          { "subtema_id": "8.2.1", "titulo": "Razonamiento Causal" },
+          {
+            "subtema_id": "8.2.2",
+            "titulo": "Meta-Cognición: Agentes que Razonan sobre su Razonamiento"
+          },
+          { "subtema_id": "8.2.3", "titulo": "Manejo de Incertidumbre" }
+        ]
+      }
+    ]
+  },
+  {
+    "modulo_id": 9,
+    "titulo": "Evaluación y Testing de Agentes",
+    "temas": [
+      {
+        "tema_id": "9.1",
+        "titulo": "Métricas de Evaluación",
+        "subtemas": [
+          { "subtema_id": "9.1.1", "titulo": "Task Completion Rate y Success Criteria" },
+          { "subtema_id": "9.1.2", "titulo": "Eficiencia: Tokens, Latencia, Costo" },
+          { "subtema_id": "9.1.3", "titulo": "Calidad de Razonamiento (Chain Quality)" }
+        ]
+      },
+      {
+        "tema_id": "9.2",
+        "titulo": "Testing de Agentes",
+        "subtemas": [
+          { "subtema_id": "9.2.1", "titulo": "Unit Testing de Tools y Functions" },
+          { "subtema_id": "9.2.2", "titulo": "Integration Testing de Flujos" },
+          { "subtema_id": "9.2.3", "titulo": "Adversarial Testing y Edge Cases" }
+        ]
+      }
+    ]
+  },
+  {
+    "modulo_id": 10,
+    "titulo": "Despliegue en Producción",
+    "temas": [
+      {
+        "tema_id": "10.1",
+        "titulo": "Arquitectura de Producción",
+        "subtemas": [
+          { "subtema_id": "10.1.1", "titulo": "APIs y Microservicios para Agentes" },
+          { "subtema_id": "10.1.2", "titulo": "Colas y Procesamiento Asíncrono" },
+          { "subtema_id": "10.1.3", "titulo": "Stateless vs Stateful Agents" }
+        ]
+      },
+      {
+        "tema_id": "10.2",
+        "titulo": "Seguridad y Guardrails",
+        "subtemas": [
+          { "subtema_id": "10.2.1", "titulo": "Input Validation y Prompt Injection Prevention" },
+          { "subtema_id": "10.2.2", "titulo": "Output Filtering y Content Moderation" },
+          { "subtema_id": "10.2.3", "titulo": "Rate Limiting y Abuse Prevention" }
+        ]
+      },
+      {
+        "tema_id": "10.3",
+        "titulo": "Observabilidad y Monitoreo",
+        "subtemas": [
+          { "subtema_id": "10.3.1", "titulo": "Logging Estructurado de Agentes" },
+          { "subtema_id": "10.3.2", "titulo": "Métricas y Dashboards" },
+          { "subtema_id": "10.3.3", "titulo": "Alerting y Incident Response" }
+        ]
+      }
+    ]
+  },
+  {
+    "modulo_id": 11,
+    "titulo": "Proyecto Integrador Final",
+    "temas": [
+      {
+        "tema_id": "11.1",
+        "titulo": "Diseño del Sistema",
+        "subtemas": [
+          { "subtema_id": "11.1.1", "titulo": "Definición de Arquitectura" },
+          { "subtema_id": "11.1.2", "titulo": "Especificación de Agentes" },
+          { "subtema_id": "11.1.3", "titulo": "Plan de Implementación" }
+        ]
+      },
+      {
+        "tema_id": "11.2",
+        "titulo": "Implementación",
+        "subtemas": [
+          { "subtema_id": "11.2.1", "titulo": "Desarrollo de Agentes Core" },
+          { "subtema_id": "11.2.2", "titulo": "Integración y Orquestación" },
+          { "subtema_id": "11.2.3", "titulo": "Testing y Refinamiento" }
+        ]
+      },
+      {
+        "tema_id": "11.3",
+        "titulo": "Entrega",
+        "subtemas": [
+          { "subtema_id": "11.3.1", "titulo": "Documentación Final" },
+          { "subtema_id": "11.3.2", "titulo": "Demo y Presentación" },
+          { "subtema_id": "11.3.3", "titulo": "Retrospectiva y Mejoras" }
+        ]
+      }
+    ]
+  }
+]
